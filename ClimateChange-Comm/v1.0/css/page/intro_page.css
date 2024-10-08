@@ -1,0 +1,44 @@
+.intro_page_card {
+    display: flex;
+    width: 100%;
+    padding: 30px 24px;
+    align-items: flex-start;
+    border-radius: var(--border-radius-large);
+    box-shadow: var(--standard_drop_shadow);
+    background: var(--lmwhte);
+}
+
+
+
+.intro_page_card_pill_holder {
+    display: flex;
+    width: 224px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.intro_page_card_pill {
+    display: flex;
+    height: 40px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: var(--intro-page-card-pill-background);
+    color: var(--intro-page-card-pill-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.intro_page_card_text {
+    display: flex;
+    flex-direction: column;
+    width: 505px;
+    display: flex;
+}

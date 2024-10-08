@@ -1,0 +1,218 @@
+.heat-stress-content-left{
+    display: flex;
+padding: var(--Spacing-Spacing-x6, 24px) var(--Spacing-Spacing-x8, 32px);
+flex-direction: column;
+align-items: flex-start;
+gap: var(--Spacing-Spacing-x4, 16px);
+flex: 1 0 0;
+border-radius: var(--Radius-Large, 8px);
+background: var(--Corporate-Primary-Landmark-White, #FFF);
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.heatwave-chart-heading{
+    align-self: stretch;
+    color: #333;
+font-size: 19px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.heatwave-chart-row{
+    display: flex;
+align-items: flex-start;
+gap: var(--Spacing-Spacing-x5, 20px);
+align-self: stretch;
+}
+
+.heatwave-chart{
+    display: flex;
+padding: var(--Spacing-Spacing-x8, 32px) 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: var(--Spacing-Spacing-x5, 20px);
+flex: 1 0 0;
+border-radius: 8px;
+border: 1px solid var(--Page-Greys-a10, #E8E8E8);
+}
+
+.chart-heading-block{
+    display: flex;
+padding-left: var(--Spacing-Spacing-x6, 24px);
+align-items: center;
+gap: var(--Spacing-Spacing-x4, 16px);
+align-self: stretch;
+}
+
+.chart-clock-icon{
+    width: 17px;
+height: 18px;
+}
+
+.chart-timedisplay-percentage{
+    display: flex;
+    color: var(--Page-Text-colours-Header, #212121);
+font-size: 23px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+gap: 20px;
+}
+
+.pie-chart-display{
+    width: 200px;
+height: 200px;
+}
+
+.pie-chart-legend{
+    height: 32px;
+    width: 276px;
+    display: flex;
+align-items: flex-start;
+gap: var(--Spacing-Spacing-x8, 32px);
+}
+
+.heat-stress-content-right{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: var(--Spacing-Spacing-x5, 20px);
+flex: 1 0 0;
+align-self: stretch;
+}
+
+.heat-stress-content-text-block{
+    display: flex;
+/* width: 670px; */
+flex-direction: column;
+align-items: flex-start;
+gap: var(--Spacing-Spacing-x1, 4px);
+}
+
+.heat-stress-content-text-heading-block{
+    display: flex;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+}
+
+.hs-heading{
+    flex: 1 0 0;
+    color: var(--Page-Text-colours-Header, #212121);
+font-size: 19px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.hs-text-block-para{
+    align-self: stretch;
+    color: var(--Page-Text-colours-Body, #4D4D4D);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.hs-DA-data-table{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: var(--Spacing-Spacing-x5, 20px);
+}
+
+.flood-DA-table-header-hs{
+    display: flex;
+    width: 163px;
+    align-items: flex-end;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.hs-da-table-name{
+    display: flex;
+width: 163px;
+align-items: flex-end;
+gap: 10px;
+}
+
+.hs-table-header{
+    color: var(--Corporate-Primary-Landmark-White, #FFF);
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.hs-table-data-row{
+    display: flex;
+padding: 0px var(--Spacing-Spacing-x8, 32px);
+align-items: flex-end;
+align-self: stretch;
+}
+
+.hs-table-inner-data{
+    display: flex;
+padding: var(--Spacing-Spacing-x2, 8px) 0px;
+align-items: flex-end;
+flex: 1 0 0;
+}
+
+.hs-table-data{
+    color: #36304A;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.hs-table-data1{
+    color: #333;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.hs-lasttable-block{
+    display: flex;
+padding: 0px var(--Spacing-Spacing-x8, 32px) 8px var(--Spacing-Spacing-x8, 32px);
+align-items: flex-end;
+align-self: stretch;
+}
+
+.hs-table-block{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+border-radius: 0px 0px var(--Radius-Large, 8px) var(--Radius-Large, 8px);
+border-right: 1px solid var(--Page-Greys-a10, #E8E8E8);
+border-bottom: 1px solid var(--Page-Greys-a10, #E8E8E8);
+border-left: 1px solid var(--Page-Greys-a10, #E8E8E8);
+}
+
+.heatstress-DA-legend-percent{
+    color: var(--Page-Text-colours-Header, #212121);
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.hs-da-legend-box{
+    display: flex;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+}
+
+.parentcontainerCoastal{
+    column-count: 2;
+    column-gap: 80px;
+    column-fill: auto;
+    height: 837px;
+}

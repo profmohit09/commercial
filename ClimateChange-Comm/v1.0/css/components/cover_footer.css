@@ -1,0 +1,8 @@
+.cover_page_footer {
+    display: flex;
+    width: 100%;
+    height: 95px;
+    padding: 15px 100px 20px 100px;
+    align-items: center;
+    gap: 60px;
+}

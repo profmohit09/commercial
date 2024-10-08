@@ -1,0 +1,21 @@
+.section-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.section-title {
+    color: var(--header-color);
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.section-elements{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}

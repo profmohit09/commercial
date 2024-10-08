@@ -1,0 +1,20 @@
+.why_we_block {
+    display: flex;
+    padding: 30px 80px var(--spacing-spacing-x-10) var(--spacing-spacing-x-10);
+
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-spacing-x-2);
+    border-radius: var(--border-radius-large);
+    background: var(--why-we-block-background);
+}
+.why_we_title{
+    display: flex;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.why_we_text{
+    display: flex;
+}

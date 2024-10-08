@@ -1,0 +1,14 @@
+.cover-header {
+    display: flex;
+    width: 1754px;
+    height: 128.528px;
+    padding: 15px 100px 0px 100px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.cover-logo-holder {
+    height: 43.53px;
+}
+

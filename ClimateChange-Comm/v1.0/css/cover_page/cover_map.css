@@ -1,0 +1,48 @@
+.cover-map {
+    position: relative;
+    display: flex;
+    width: 674px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 8px;
+    height: 429px;
+    overflow: hidden;
+}
+
+.map-map{
+    /* display: flex;
+    width: 674px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 8px;
+    height: 429px; */
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.copyright-block {
+    display: flex;
+    padding: 0px 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--Corporate-Primary-Landmark-White, #FFF);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.copyright-text{
+    flex: 1 0 0;
+    color: #000;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 150% */
+}

@@ -1,0 +1,65 @@
+.intro-page{
+    position: relative;
+    width: 1754px;
+height: 1240px;
+background: #2F4153;
+}
+
+.report-heading{
+    width: 1626px;
+    height: 199px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 117px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 183px;
+    left: 196px;
+}
+
+.report-name-block{
+    display: flex;
+    width: 1626px;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    top: 395px;
+    left: 196px;
+}
+
+.report-intro-name{
+    width: 1626px;
+flex-shrink: 0;
+color: #FFF;
+font-size: 196px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.orange-dot{
+    display: flex;
+padding: 152px 0px 0px var(--Spacing-Spacing-x2, 8px);
+align-items: flex-start;
+gap: 10px;
+position: absolute;
+left: 629px;
+bottom: 72px;
+}
+
+.report-orange-dot{
+    width: 55px;
+height: 55px;
+}
+
+.report-intro-blocks-img{
+    position: absolute;
+    width: 584.995px;
+    height: 578px;
+    flex-shrink: 0;
+    bottom: 0px;
+    right: 0;
+}

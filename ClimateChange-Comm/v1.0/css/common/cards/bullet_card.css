@@ -1,0 +1,38 @@
+.bullet-card {
+    display: flex;
+    width: 674px;
+    padding: var(--Spacing-Spacing-x10, 40px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: var(--border-radius-large);
+    background: var(--lm-white);
+    box-shadow: var(--standard-drop-shadow);
+}
+
+.bullet-card-pill {
+    display: flex;
+    height: var(--spacing-spacing-x-10);
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: var(--lm-grey-15);
+    color: var(--lm-grey-95);
+    text-align: center;
+    font-weight: 600;
+}
+
+.bullet-card-text{
+    align-self: stretch;
+    color: var(--);
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(--Corporate-Primary-Landmark-Black, #212121);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

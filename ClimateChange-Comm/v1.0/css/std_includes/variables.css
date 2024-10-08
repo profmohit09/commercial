@@ -1,0 +1,29 @@
+:root {
+    --lm-white: #fff;
+    --lm-black: #212121;
+    --lm-orange: #ff7800;
+    --lm-grey-95: #2C2C2C;
+    --lm-grey-80: #4D4D4D;
+    --lm-grey-15: #DEDEDE;
+    --lm-grey-5: #F4F4F4;
+    --lm-secondary-blue: #2e4052;
+    --report-accent: #ff7800;
+    --report-background: var(--lm-black);
+    --body-background-grey: #f4f4f4;
+    --header-color: var(--lm-black);
+    --text-color: var(--lm-grey-80);
+    --standard-drop-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    --spacing-spacing-x-10: 40px;
+    --page-info-color-green: #00961C;
+    --page-info-color-red: #E31738;
+    --header-background-color: var(--lm-secondary-blue);
+    --intro-page-card-pill-background: #F1F7FD;
+    --intro-page-card-pill-color: #3493E9;
+    --why-we-block-background: #F5F9FF;
+    --grey-a5: #F4F4F4;
+    --border-radius-large: 8px;
+    --border-radius-small: 4px;
+    --spacing-spacing-x-2: 8px;
+    --spacing-spacing-x-10: 40px;
+    --Landmark-Secondary-colours-Landmark-Blue: #2e4052;
+}

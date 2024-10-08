@@ -1,0 +1,16 @@
+.ud-content{
+    display: flex;
+align-items: flex-start;
+gap: 100px;
+flex: 1 0 0;
+align-self: stretch;
+}
+
+.ud-left-content, .ud-right-content{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+flex: 1 0 0;
+align-self: stretch;
+}
